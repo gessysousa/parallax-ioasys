@@ -1,0 +1,115 @@
+html, body {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+
+body {
+   padding-bottom: 50px;
+   background-color: white;
+   min-height: 1600px;
+}
+.page-container {
+   padding: 20px 10px;
+   width: 100%;
+   max-width: 650px;
+   margin: auto;
+   text-align: left;
+   background-color: white;
+   
+}
+
+.parallax {
+  background-attachment: fixed; 
+}
+
+.hero {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 660px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+
+.hero h2, .hero h3 {
+   font-family: 'Poppins', sans-serif;
+   color: white;
+   text-shadow: 2px 2px 6px rgba(12,8,9,0.7);
+   position: absolute;
+}
+
+.hero h2 {
+   font-size: 90px;
+   top: 2%;
+   left: 10%;
+   
+
+}
+
+.hero h3 {
+   font-size: 90px;
+   bottom: 4%;
+   right: 10%;
+   font-weight: 500;
+}
+
+.gramado {
+   /* background-image: url("../img/gramado.jpg"); */
+   background-image: url("gramado.jpg");
+}
+
+.cassino {
+   /* background-image: url("../img/cassino.jpg"); */
+   background-image: url("cassino.jpg");
+}
+
+.cambara {
+   /* background-image: url("../img/cambara.jpg"); */
+   background-image: url("cambara.jpg");
+}
+.pelotas {
+   /* background-image: url("../img/Pelotas.jpg"); */
+   background-image: url("Pelotas.jpg");
+}
+
+.portoAlegre {
+   /* background-image: url("../img/portoalegre.jpg"); */
+   background-image: url("portoalegre.jpg");
+}
+
+.berlin {
+   background-image: url("../img/berlin.jpg");
+}
+
+.veneza {
+   background-image: url("../img/veneza.jpg");
+}
+
+.page-container h2 {
+   font-size: 36px;
+   text-transform: uppercase;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500px;
+   margin: 0 0 20px 0;
+   color: #222222;
+}
+
+.page-container p {
+   font-family: 'Lato', sans-serif;
+   letter-spacing: 0.5px;
+   line-height: 26px;
+   font-size: 18px;
+   margin: auto;
+   color: #222222;
+   
+}
+
+.page-container p:not(:last-of-type) {
+   margin-bottom: 24px;
+}
+
